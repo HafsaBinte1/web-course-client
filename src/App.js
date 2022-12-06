@@ -25,7 +25,7 @@ function App() {
       children: [
         {
           path: '/',
-          element: 'jj'
+          element: <Home></Home>
         },
        
         

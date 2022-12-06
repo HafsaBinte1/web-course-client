@@ -1,0 +1,42 @@
+.form-container {
+    width: 550px;
+    height: 650px;
+    border: 2px solid palevioletred;
+    margin: 80px auto;
+    background-color: #F8F9FA;
+}
+
+.form-title {
+    color:palevioletred;
+}
+
+.google {
+    color: green;
+    border: 2px solid green;
+}
+
+.facebook {
+    color: rgb(92, 92, 215);
+    border: 2px solid rgb(98, 98, 212);
+}
+
+.twitter {
+    color: rgb(106, 204, 204);
+    border: 2px solid rgb(88, 183, 183);
+}
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 560px) {
+    .form-container {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .form-container {
+        width: 300px;
+    }
+}

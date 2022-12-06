@@ -17,7 +17,9 @@
     padding: 100px;
 }
 
-
+.left-side-container li {
+    list-style: none;
+}
 
 .left-side-container a {
     text-decoration: none;
